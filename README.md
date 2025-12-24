@@ -15,4 +15,4 @@ Analyzed password hashing mechanisms and evaluated password strength and common 
 Practiced ethical hacking methodologies, following a structured approach including reconnaissance, exploitation, and post-exploitation analysis.
 
 Gained experience working in capture-the-flag (CTF)-style labs, focusing on problem-solving, vulnerability analysis, and secure system assessment.
-![1764471977](https://github.com/user-attachments/assets/bd1e76dd-125d-4be6-8188-e71c0d50bf5f)
+![SQL Injection](images/42Bangkok.png)
