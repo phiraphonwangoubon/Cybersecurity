@@ -18,6 +18,7 @@ Router(config)#access-list 105 permit tcp host 192.168.x.x any eq 22 log
 Router(config)#access-list 105 deny ip any any log
 
 ***
+#### TIPS
 
 Router(config)#line vty 0 4
 
@@ -74,6 +75,7 @@ Router(config-if)#ip access-group 150 in
 Router(config-if)#exit
 
 ***
+#### TIPS
 
 deny ip any host 192.168.x.255 → ปฏิเสธการส่ง ICMP ไปยัง Broadcast Address (.255)
 
@@ -85,13 +87,3 @@ ip access-group 150 in → ใช้ ACL กับ inbound traffic ของ int
 
 ประโยชน์: ป้องกันการโจมตีแบบ Smurf Attack ที่ใช้การส่ง ICMP broadcast เพื่อทำ DDoS
 
-
-
-สรุป
-Secure VTY Access → อนุญาตเฉพาะ IP ที่กำหนดให้เข้า Telnet/SSH
-
-Secure HTTP Management → จำกัด subnet ที่เข้าถึง Web Management ของ Router
-
-Anti Smurf Attack → บล็อก ICMP traffic ที่พยายามโจมตีผ่าน broadcast
-
-สิ่งเหล่านี้เป็นมาตรการด้าน ACL Security ที่ใช้จริงในองค์กรเพื่อป้องกันการเข้าถึงที่ไม่ได้รับอนุญาต และลดความเสี่ยงจากการโจมตีเครือข่าย
