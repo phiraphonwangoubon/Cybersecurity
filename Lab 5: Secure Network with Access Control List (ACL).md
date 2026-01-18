@@ -18,7 +18,7 @@ Router(config)#access-list 105 permit tcp host 192.168.x.x any eq 22 log
 Router(config)#access-list 105 deny ip any any log
 
 ***
-#### TIPS
+## TIPS
 
 Router(config)#line vty 0 4
 
@@ -47,6 +47,7 @@ Router(config)#access-list 50 deny any log
 Router(config)#ip http access-class 50
 
 ***
+## TIPS
 
 ip http auth local → ใช้ local username/password สำหรับการเข้าถึง web management
 
@@ -75,7 +76,7 @@ Router(config-if)#ip access-group 150 in
 Router(config-if)#exit
 
 ***
-#### TIPS
+## TIPS
 
 deny ip any host 192.168.x.255 → ปฏิเสธการส่ง ICMP ไปยัง Broadcast Address (.255)
 
