@@ -229,6 +229,10 @@ CCNAS-ASA(config-if)#exit
 
 CCNAS-ASA(config)#
 
+CCNAS-ASA#sh switch vlan
+
+<img src="Screenshot 2026-01-18 112147.png" width="600">
+
 
 
 
