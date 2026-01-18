@@ -20,7 +20,7 @@
 
 
 
-#### กำหนดค่าเราเตอร์และสวิตช์เพื่อส่งบันทึกไปยังเซิร์ฟเวอร์ Syslog
+#### **กำหนดค่าเราเตอร์และสวิตช์เพื่อส่งบันทึกไปยังเซิร์ฟเวอร์ Syslog**
 
 R1>en
 
@@ -48,7 +48,7 @@ R1(config)#loggin trap ?
 <img src ="images/logging trap.png" width="400">
 
 
-#### กำหนด Log Buffer ภายใน Router
+#### **กำหนด Log Buffer ภายใน Router**
 
 R1(config)#logging buffered 16000 information
 
