@@ -1,5 +1,18 @@
 # Lab 2 : Restrict Access
 
+### แลปนี้เป็นการจำลอง การรักษาความปลอดภัยบนอุปกรณ์เครือข่ายเบื้องต้น โดยเน้นไปที่:
+
+- สร้าง local user เพื่อแทนที่ password เดียวของ VTY/Console
+
+- จำกัดการเข้าถึง Console, VTY, AUX ด้วย timeout, login local และ transport control
+
+- บังคับใช้ SSH แทน Telnet เพื่อความปลอดภัยในการ remote
+
+- เสริมด้วย key encryption และ policy timeout/retries
+
+
+ทั้งหมดนี้เป็นแนวปฏิบัติด้าน Secure Router Access Hardening ที่ควรใช้ในเครือข่ายจริงเพื่อป้องกันการเจาะระบบและการเข้าถึงที่ไม่ได้รับอนุญาต
+
 2.1 ) การสร้าง User และ Privilege Level
 
 Router# config t
