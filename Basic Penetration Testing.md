@@ -1,6 +1,6 @@
 -- LAB : Configuring ASA Basic Settings and Firewall Using CLI --
 
-<img src="Cybersecurity/screenshot_2026-01-18_112147.png" width="600">
+<img src="Cybersecurity/Screenshot 2026-01-18 112147.png" width="600">
 
 1 ) ตั้งค่า Router R1
   
