@@ -1,7 +1,8 @@
 # Enable Site-to-Site VPN
 --- Lab นี้เป็นการจำลองการตั้งค่า Site-to-Site VPN (IPsec VPN) ระหว่าง R1 ↔ R3 โดยผ่าน R2 บน Packet Tracer เพื่อให้ LAN ทั้งสองฝั่ง (192.168.1.0/24 ↔ 192.168.3.0/24) เชื่อมต่อกันอย่างปลอดภัย ---
 
-<img src ="images/vpn.png" width ="600">
+<img width="612" height="557" alt="image" src="https://github.com/user-attachments/assets/9b86ec28-cd64-4a4b-99e0-2ddd1b57fcf8" />
+
 
 ***
 
