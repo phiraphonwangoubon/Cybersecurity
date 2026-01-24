@@ -1,4 +1,4 @@
-# bruteforce hydra.md
+# Bruteforce hydra.
 
 ขั้นตอนที่ 1 : nmap เพื่อค้นหาบริการและพอร์ตบนเครื่องเป้าหมาย
 
