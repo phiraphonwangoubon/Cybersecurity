@@ -240,6 +240,68 @@ severity_level คืออะไร (Cisco ASA)
 
         debug (7)     - ดีบัก 
 
+Firewall action trend
+
+- ใช้แผนภูมิเวลาเพื่อลงจุดข้อมูลอนุกรมเวลา span parameter ที่ควบคุมรายละเอียด เช่น จำนวนข้อมูลที่ถูกนับต่อช่วงเวลา
+
+- Set
+
+     - Time Picker: Last 7 days
+
+     - Visualization to Area
+
+     - Scale of Y-Axis to Log
+
+ค้นหาคำสั่ง: index="lab0" sourcetype="cisco:asa" | timechart span=1h count by action usenull=f
+
+Result:
+
+<img width="950" height="516" alt="image" src="https://github.com/user-attachments/assets/eb027842-452b-4602-ac8b-495c7c8589e0" />
+
+<img width="1236" height="294" alt="image" src="https://github.com/user-attachments/assets/235ce76a-7333-4eef-b3b8-f32981ed000d" />
+
+<img width="528" height="343" alt="image" src="https://github.com/user-attachments/assets/d1da5aa5-3e15-43c0-b649-6008ddadff4d" />
+
+
+--------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+
+
+Top N Network Metric
+
+- This report requires the field src_ip (Source IP)
+
+- Set
+
+     - Time Picker = Last 7 days
+
+     - Visualization = Pie
+
+
+
+ค้นหาคำสั่ง: index="lab0" sourcetype="cisco:asa" | top src_ip
+
+Result:
+
+<img width="1241" height="510" alt="image" src="https://github.com/user-attachments/assets/57320241-5c6b-4af6-991a-ac3fc3125553" />
+
+- คลิก Dashboards view และเลือก Create New Dashboard.
+
+- <img width="1262" height="386" alt="image" src="https://github.com/user-attachments/assets/ba4b2d2c-e3d1-4460-8010-fd9ac42636fd" />
+
+
+- ซึ่งจะเปิดกล่องโต้ตอบสร้างแดชบอร์ดใหม่ ซึ่งช่วยให้คุณสามารถกำหนดแดชบอร์ดใหม่ได้
+
+- กรอกรายละเอียดสำหรับ Title และเลือก Shared in App.
+
+- และสุดท้าย คลิก Create
+
+- <img width="528" height="500" alt="image" src="https://github.com/user-attachments/assets/6e8c63e3-6889-404d-ac0c-9e6fcdd63388" />
+
+<img width="1256" height="458" alt="image" src="https://github.com/user-attachments/assets/a84c50d3-a580-4098-a774-debbc3d83948" />
+
+<img width="1252" height="880" alt="image" src="https://github.com/user-attachments/assets/d96cfb52-1d54-4625-b7a0-afafc9b137a7" />
+
 
 
 
