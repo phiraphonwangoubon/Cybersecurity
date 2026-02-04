@@ -2,7 +2,10 @@ Remote Code Execution ( exploit of qdPM 9.1 )
 
 ***
 
-<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/c4c065df-a4ab-490b-a44a-5b50ec8041d5" />
+<img width="795" height="570" alt="539550080-c4c065df-a4ab-490b-a44a-5b50ec8041d5" src="https://github.com/user-attachments/assets/9adb4226-9316-4fe8-acd8-4f6f24708f4b" />
+<img width="795" height="570" alt="539550080-c4c065df-a4ab-490b-a44a-5b50ec8041d5" src="https://github.com/user-attachments/assets/9adb4226-9316-4fe8-acd8-4f6f24708f4b" />
+
+
 
 จาก url ของเป้าหมายเราได้พบช่องทางที่คิดว่าน่าจะเป็นช่องโหว่ที่หน้าเว็บคือ qdPM 9.1
 
