@@ -11,3 +11,9 @@
     - Develop skills in Web Application Hacking and Penetration Testing methodologies
 
     - Maintain this repository as both a professional portfolio and a personal learning journal for future reference
+
+
+## ⚠ Disclaimer
+
+This repository is for educational purposes only.  
+All content is intended to be used in legal and ethical environments only.
