@@ -1,4 +1,4 @@
-This repository was created to document my hands-on labs and learning journey in Cybersecurity. The goal is to develop practical skills in both Blue Team operations and Penetration Testing through real-world exercises. This project serves not only as a collection of lab files, but also as a structured learning journal that reflects my progress from fundamental cybersecurity concepts to more advanced topics. 
+    This repository was created to document my hands-on labs and learning journey in Cybersecurity. The goal is to develop practical skills in both Blue Team operations and Penetration Testing through real-world exercises. This project serves not only as a collection of lab files, but also as a structured learning journal that reflects my progress from fundamental cybersecurity concepts to more advanced topics. 
 
 --- ## 🎯 Objectives 
 
