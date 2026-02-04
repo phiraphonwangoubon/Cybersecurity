@@ -71,7 +71,8 @@ Web Application โดยทั่วไปประกอบด้วย 3 ส�
 
      command : index="weblog" sourcetype="access_combined" "OR" OR "'1'='1" OR "'--" OR "' and " OR "union select" | stats count by clientip, uri_path, uri_query, status
 
-<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/4d780794-848a-42ab-adb8-80767283b4ab" />
+<img width="1919" height="170" alt="image" src="https://github.com/user-attachments/assets/627e66be-9523-4282-8090-2953cb0f2f85" />
+
 
 🔐 command นี้คืออะไร ?
 
